@@ -6,6 +6,7 @@ body{
     background-color: hsl(210, 46%, 95%);
     font-family: "Manrope", sans-serif;
     font-size: 13px;
+    overflow: hidden;
 }
 
 main{
@@ -123,16 +124,13 @@ button{
     justify-content: space-around;
     width: 100%;
     text-align: center;
-    /* align-items: center; */
 }
 .share-icon li{
     list-style: none;
     font-size: 2em;
-    /* display: block; */
 }
 
 .share-triangle{
-    /* display: none; */
     position: absolute;
     z-index: 0;
     bottom: -20px;
@@ -148,15 +146,17 @@ button.show{
 
 }
 
-@media screen and (min-width:375px) and ( max-width:900px){
+@media screen and (max-width:600px){
     body{
         font-size: 14px;
         font-weight: 500;
     }
     main{
+        margin: 15vh auto;
         flex-wrap: wrap;
         flex-direction: column;
         overflow: hidden;
+        width: 80%;
     }
     h1{
         font-size: 1.1em;
