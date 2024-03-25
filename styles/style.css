@@ -152,7 +152,7 @@ button.show{
         font-weight: 500;
     }
     main{
-        margin: 15vh auto;
+        margin: 10vh auto;
         flex-wrap: wrap;
         flex-direction: column;
         overflow: hidden;
