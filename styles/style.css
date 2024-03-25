@@ -150,12 +150,9 @@ button.show{
     body{
         font-size: 14px;
         font-weight: 500;
-        display:flex;
-        justify-content : center;
-        align-items: center;
     }
     main{
-        margin: auto;
+        margin: 5vh auto;
         flex-wrap: wrap;
         flex-direction: column;
         overflow: hidden;
