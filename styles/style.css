@@ -66,7 +66,6 @@ footer{
 .name-desc{
     display: flex;
     justify-content: space-evenly;
-    /* align-items: center; */
     flex-direction: column;
 }
 h1, .name{
@@ -96,6 +95,7 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .social-share{
@@ -181,7 +181,6 @@ button.show{
         width: 100%;
         padding: 20px 20px 20px 60px;
         justify-content: flex-start;
-        /* overflow: hidden; */
     }
     .share-icon ul{
         justify-content: space-evenly;
